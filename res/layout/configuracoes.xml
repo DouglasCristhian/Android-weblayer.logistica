@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:id="@+id/txvWebservice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Webservice"/>
+    <EditText android:id="@+id/edtWebservice" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/txvUltimaSincronizacao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Última Sincronização"/>
+    <EditText android:id="@+id/edtUltimaSincronizacao" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false"/>
+
+    <Button android:id="@+id/btnSalvar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Salvar" android:onClick="btnSalvar_Click"></Button>
+    <Button android:id="@+id/btnTestarConexao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Testar Conexão" android:onClick="btnTestarConexao_Click"></Button>
+    <Button android:id="@+id/btnLimpar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Limpar dados armazenados" android:onClick="btnLimpar_Click"></Button>
+</LinearLayout>

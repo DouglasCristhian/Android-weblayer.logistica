@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView android:id="@+id/txvWeblayer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Weblayer Logística para Android"/>
+
+    <TextView android:id="@+id/txvVersaoW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Versão: "/>
+    <TextView android:id="@+id/txvVersao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="v"/>
+
+    <TextView android:id="@+id/txvVersaoSistemaW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Versão do Sistema: "/>
+    <TextView android:id="@+id/txvVersaoSistema" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="v"/>
+
+    <TextView android:id="@+id/txvMemoriaDisponivelW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Memória disponível: "/>
+    <TextView android:id="@+id/txvMemoriaDisponivel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="m"/>
+
+    <TextView android:id="@+id/txvFabricanteW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fabricante: "/>
+    <TextView android:id="@+id/txvFabricante" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="f"/>
+
+    <TextView android:id="@+id/txvVersaoHardwareW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Versão do Hardware: "/>
+    <TextView android:id="@+id/txvVersaoHardware" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="h"/>
+
+    <TextView android:id="@+id/txvCopyright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="WebLayer - Todos os direitos reservados."/>
+</LinearLayout>

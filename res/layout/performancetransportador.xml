@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:gauge="http://schemas.android.com/apk/res/br.com.weblayer.weblayer_logistica"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:id="@+id/txvPerfomanceTransportadorNome" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    <org.codeandmagic.android.gauge.GaugeView
+            android:id="@+id/gauge_view2"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            gauge:showOuterShadow="true"
+            gauge:showOuterRim="true"
+            gauge:showNeedle="true"
+            gauge:showRanges="true"
+            gauge:textUnit="%"
+            gauge:scaleStartValue="0"
+            gauge:scaleEndValue="100"
+
+            />
+
+    <TextView android:id="@+id/txvPerfomanceTransportadorPerformance" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/txvPerfomanceTransportadorFaturamentoValor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/txvPerfomanceTransportadorUltimaAtualizacaoValor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

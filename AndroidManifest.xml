@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="br.com.weblayer.weblayer_logistica">
+    <uses-sdk android:minSdkVersion="10"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".VIEW.TelaLogin"
+                  android:label="Weblayer Logistica">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".VIEW.Configuracoes" android:label="Configurações"></activity>
+        <activity android:name=".VIEW.Principal" android:label="Principal"></activity>
+        <activity android:name=".VIEW.PesquisaPerformance" android:label="Pesquisa Performance"></activity>
+        <activity android:name=".VIEW.PerformanceTransportador" android:label="Performance do Transportador"></activity>
+        <activity android:name=".VIEW.PesquisarNota" android:label="Pesquisar Nota"></activity>
+        <activity android:name=".VIEW.ConfirmarEntrega" android:label="Confirmar Entrega"></activity>
+        <activity android:name=".VIEW.SimulacaoFrete" android:label="Simulação de Frete"></activity>
+        <activity android:name=".VIEW.SimulacaoFrete_Resultado" android:label="Resultado da Simulação de Frete"></activity>
+        <activity android:name=".VIEW.SimulacaoFrete_ResultadoDetalhes" android:label="Detalhes da Simulação de Frete"></activity>
+    </application>
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:id="@+id/txvLoginUsuario" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Login"></TextView>
+    <EditText android:id="@+id/edtLoginUsuario" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/txvLoginSenha" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Senha"></TextView>
+    <EditText android:id="@+id/edtLoginSenha" android:layout_width="match_parent" android:layout_height="wrap_content" android:password="true"/>
+
+    <Button android:id="@+id/btnLoginLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Login" android:onClick="btnLogin_Click"></Button>
+</LinearLayout>

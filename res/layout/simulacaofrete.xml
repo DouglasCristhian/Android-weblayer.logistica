@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Origem"/>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Spinner android:id="@+id/spnSimulacaoFreteEstadoOrigem" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </Spinner>
+
+        <Spinner android:id="@+id/spnSimulacaoFreteCidadeOrigem" android:layout_width="match_parent" android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Destino"/>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Spinner android:id="@+id/spnSimulacaoFreteEstadoDestino" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </Spinner>
+
+        <Spinner android:id="@+id/spnSimulacaoFreteCidadeDestino" android:layout_width="match_parent" android:layout_height="match_parent">
+        </Spinner>
+    </LinearLayout>
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Valor NF"/>
+    <EditText android:id="@+id/edtSimulacaoFreteValorNF" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Peso NF"/>
+    <EditText android:id="@+id/edtSimulacaoFretePesoNF" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Volume"/>
+    <EditText android:id="@+id/edtSimulacaoVolume" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnSimulacaoEnviar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Enviar" android:onClick="btnSimulacaoEnviar_Click"></Button>
+</LinearLayout>

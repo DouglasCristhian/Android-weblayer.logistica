@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:id="@+id/txvConfirmarEntregaNomeDt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Nome"/>
+    <TextView android:id="@+id/txvConfirmarEntregaNome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="nm" android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=" " android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:id="@+id/txvConfirmarEntregaValorDt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Valor"/>
+    <TextView android:id="@+id/txvConfirmarEntregaValor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="vl" android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=" " android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:id="@+id/txvConfirmarEntregaNotaSerieDt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Nota/Série"/>
+    <TextView android:id="@+id/txvConfirmarEntregaNotaSerie" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ns" android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=" " android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:id="@+id/txvConfirmarEntregaDataEntrega" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Data Entrega"/>
+    <DatePicker android:id="@+id/dtpConfirmarEntregaDataEntrega" android:layout_width="fill_parent" android:layout_height="wrap_content"></DatePicker>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=" " android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <Button android:id="@+id/btnConfirmarEntrega" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Confirmar Entrega" android:onClick="btnConfirmarEntrega"></Button>
+
+</LinearLayout>
