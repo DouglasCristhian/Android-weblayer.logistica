@@ -39,7 +39,7 @@ public class Configuracoes extends Activity {
             InserirDadosBasicos();
         }
         catch (Exception ex) {
-            Toast.makeText(getBaseContext(), String.format("Erro: {0}", ex.getMessage()), Toast.LENGTH_LONG).show();
+            Toast.makeText(getBaseContext(), String.format("Erro2: {0}", ex.getMessage()), Toast.LENGTH_LONG).show();
         }
     }
 
